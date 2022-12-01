@@ -38,7 +38,7 @@ def parse_args():
     # parser.add_argument("-c", "--cfg", default="examples/FEDformer/FEDformer_Electricity.py", help="training config")
     # parser.add_argument("-c", "--cfg", default="examples/Pyraformer/Pyraformer_ETTh1.py", help="training config")
     # parser.add_argument("-c", "--cfg", default="examples/FEDformer/FEDformer_Weather.py", help="training config")
-    parser.add_argument("-c", "--cfg", default="examples/STID/STID_ExchangeRate.py", help="training config")
+    parser.add_argument("-c", "--cfg", default="examples/run.py -c examples/Linear/DLinear_PEMS04.py", help="training config")
     # parser.add_argument("-c", "--cfg", default="examples/Informer/Informer_Weather.py", help="training config")
     # parser.add_argument("-c", "--cfg", default="examples/Pyraformer/Pyraformer_Weather.py", help="training config")
     # parser.add_argument("-c", "--cfg", default="examples/Autoformer/atfm_04.py", help="training config")
